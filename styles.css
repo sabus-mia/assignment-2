@@ -44,10 +44,11 @@ width: 100rem;
     font-weight: 600;}
 
 
-.logo-pinkgd{color: transparent;
+.logo-pinkgd {
     font-size: 2rem;
     font-weight: 600;
-    background: linear-gradient(to top, rgb(255, 255, 0) 0%, rgb(255, 0, 255) 45%, rgb(7, 64, 255) 100%);
+    background: linear-gradient(to top,rgb(255, 255, 0) 0%, rgb(255, 0, 255) 45%, rgb(7, 64, 255) 100%);
+    color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
 }
@@ -60,7 +61,7 @@ ul, li, a{display: flex;
     gap: 32px;
     text-decoration: none;
     list-style: none;
-    color:white;
+    color:rgba(255, 255, 255, 0.822);
    
 }
 
@@ -104,7 +105,7 @@ align-items: center;
 
 .hero-text {
     width: 35.375rem;
-    height: 40.375rem;
+    height: 37.375rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,32 +113,18 @@ align-items: center;
     text-align: center;
 }
 
-.microphone-backg-color{width: 21.87rem;
-    height: 21.875rem;
+
+.microphone-backg-color{width: 21rem;
+    height: 21rem;
 display: flex;
 justify-content: center;
 align-items: center;
 background: linear-gradient(to right top, rgb(255, 255, 0) 0%, rgb(255, 00, 0) 45%, rgb(0, 0, 255) 100%);
-border: 1px solid orange;
 border-radius: 50%;}
 
-.button-inline{gap:0.5rem; }
 
-
- /*.hero-text{height: 35.5rem;
-    width: 33.6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 2px solid red;
-
- }*/
-
-.i
-
-.img-microphone-size{height: 100px;
-    width: 100px;}
+.img-microphone-size{height: 90px;
+    width: 90px;}
                 
 
 .hero-text-size {font-size: 3.75rem;}
@@ -145,21 +132,21 @@ border-radius: 50%;}
 
 .hero-button1{
     height: 2.75rem;
-    width: 10.3135rem;
+    width: 12.56rem;
     background: linear-gradient(to right top, rgb(255, 255, 0) 0%, rgb(255, 00, 0) 45%, rgb(0, 0, 255) 100%);
-    color: white;
-    font-weight: bold;
+    color: rgba(255, 255, 255, 0.815);
     border-radius: 22px 22px;
-font-size: 19px;}
+font-size: 19px;
+}
 
 .hero-button2{
     height: 2.75rem;
-    width: 10.3135rem;
-    background: linear-gradient(to right top, rgb(255, 255, 0) 0%, rgb(255, 00, 0) 45%, rgb(0, 0, 255) 100%);
-    color: white;
-    font-weight: bold;
+    width: 9.1875rem;
+    color: rgb(40, 196, 40);
     border-radius: 22px 22px;
-font-size: 19px;}
+font-size: 19px;
+background-color: #1a0b2e11;
+border: 2px solid rgb(46, 226, 46);}
 
 
 
@@ -167,12 +154,12 @@ font-size: 19px;}
 
 
 .about-podcast-big-container{width: 100rem;
-    height: 55.5625rem;
-    display: flex;
-    justify-content: center;
+    height: 41.25rem;
+    display: grid;
 align-items: center;
     text-align: center;
-    border: 2px solid yellow;}
+    column-gap: 250px;
+}
 
 
 
@@ -181,14 +168,39 @@ align-items: center;
     height: auto;
     align-items: center;
     text-align: center;
-    color: white;
-    border: 2px solid yellow;}
+    color: rgba(255, 255, 255, 0.493);
+    
 
+}
+.about-podcast-tex, p { font-size: 21px;}
 
 p,h1,h2,h3 {color: white;}
 
 
 
+.about-rating-container {width: 75;
+    height: 7.125rem;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.rating-text a h1 {color: rgb(39, 219, 39);
+
+}
+
+.small-text {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+
+.horizontal-line {
+    color: rgba(71, 70, 70, 0.144);
+    size: 0cap;
+
+}
 
 
 
@@ -197,19 +209,5 @@ p,h1,h2,h3 {color: white;}
 
 
 
-
-
-
-
-
-
-.hero-buttoton1{
-    height: 2.75rem;
-    width: 10.3135rem;
-    background: linear-gradient(to right top, rgb(255, 255, 0) 0%, rgb(255, 00, 0) 45%, rgb(0, 0, 255) 100%);
-    color: white;
-    font-weight: bold;
-    border-radius: 22px 22px;
-font-size: 19px;}
 
 
