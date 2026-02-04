@@ -1,0 +1,215 @@
+body{margin:auto;
+font-family:'Poppins', sans-serif;
+max-width: 100rem;
+padding:0;
+background-color: #1A0B2E;
+}
+
+
+
+
+/*navigation bar header section  */
+
+
+
+
+.nav-containe {width: 100rem;
+    height: 760px;
+
+
+}
+
+
+
+.nav-bar {
+
+width: 100rem;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1A0B2E;
+}
+
+
+/* logo structure */
+
+
+.logo{
+    display: flex;
+}
+
+.logo-white{color: white;
+    font-size: 2rem;
+    font-weight: 600;}
+
+
+.logo-pinkgd{color: transparent;
+    font-size: 2rem;
+    font-weight: 600;
+    background: linear-gradient(to top, rgb(255, 255, 0) 0%, rgb(255, 0, 255) 45%, rgb(7, 64, 255) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+
+
+
+ul, li, a{display: flex;
+    gap: 32px;
+    text-decoration: none;
+    list-style: none;
+    color:white;
+   
+}
+
+
+
+
+
+.primary-button{
+    height: 2.75rem;
+    width: 10.3135rem;
+    background: linear-gradient(to right top, rgb(255, 255, 0) 0%, rgb(255, 00, 0) 45%, rgb(0, 0, 255) 100%);
+    color: white;
+    font-weight: bold;
+    border-radius: 22px 22px;
+font-size: 19px;}
+
+
+
+
+
+
+
+
+
+
+
+/* hero-section */
+
+
+
+.hero-section{width: 100rem;
+    height: 47.5rem;
+background-image: url(/hero-bg.png);
+background-image: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.hero-text {
+    width: 35.375rem;
+    height: 40.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    text-align: center;
+}
+
+.microphone-backg-color{width: 21.87rem;
+    height: 21.875rem;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(to right top, rgb(255, 255, 0) 0%, rgb(255, 00, 0) 45%, rgb(0, 0, 255) 100%);
+border: 1px solid orange;
+border-radius: 50%;}
+
+.button-inline{gap:0.5rem; }
+
+
+ /*.hero-text{height: 35.5rem;
+    width: 33.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid red;
+
+ }*/
+
+.i
+
+.img-microphone-size{height: 100px;
+    width: 100px;}
+                
+
+.hero-text-size {font-size: 3.75rem;}
+
+
+.hero-button1{
+    height: 2.75rem;
+    width: 10.3135rem;
+    background: linear-gradient(to right top, rgb(255, 255, 0) 0%, rgb(255, 00, 0) 45%, rgb(0, 0, 255) 100%);
+    color: white;
+    font-weight: bold;
+    border-radius: 22px 22px;
+font-size: 19px;}
+
+.hero-button2{
+    height: 2.75rem;
+    width: 10.3135rem;
+    background: linear-gradient(to right top, rgb(255, 255, 0) 0%, rgb(255, 00, 0) 45%, rgb(0, 0, 255) 100%);
+    color: white;
+    font-weight: bold;
+    border-radius: 22px 22px;
+font-size: 19px;}
+
+
+
+ /* About the Podcast section */
+
+
+.about-podcast-big-container{width: 100rem;
+    height: 55.5625rem;
+    display: flex;
+    justify-content: center;
+align-items: center;
+    text-align: center;
+    border: 2px solid yellow;}
+
+
+
+
+.about-podcast-tex {width: 75rem;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border: 2px solid yellow;}
+
+
+p,h1,h2,h3 {color: white;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-buttoton1{
+    height: 2.75rem;
+    width: 10.3135rem;
+    background: linear-gradient(to right top, rgb(255, 255, 0) 0%, rgb(255, 00, 0) 45%, rgb(0, 0, 255) 100%);
+    color: white;
+    font-weight: bold;
+    border-radius: 22px 22px;
+font-size: 19px;}
+
+
