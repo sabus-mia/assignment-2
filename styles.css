@@ -92,6 +92,14 @@ font-size: 19px;}
 
 
 
+
+
+
+
+
+
+
+
 .hero-section{width: 100rem;
     height: 47.5rem;
 background-image: url(/hero-bg.png);
@@ -148,9 +156,28 @@ font-size: 19px;
 background-color: #1a0b2e11;
 border: 2px solid rgb(46, 226, 46);}
 
+.buttom-img {
+    height: 18px;
+    width: 18px;
+
+}
+
+
+
+
+
+
+
 
 
  /* About the Podcast section */
+
+
+
+
+
+
+
 
 
 .about-podcast-big-container{width: 100rem;
@@ -174,7 +201,7 @@ align-items: center;
 }
 .about-podcast-tex, p { font-size: 21px;}
 
-p,h1,h2,h3 {color: white;}
+p,h1,h2,h3 {color: rgba(245, 238, 238, 0.911);}
 
 
 
@@ -201,6 +228,141 @@ p,h1,h2,h3 {color: white;}
     size: 0cap;
 
 }
+
+
+
+
+
+
+
+
+
+/* Why Choose TechWave grid box layout */
+
+
+
+
+
+
+
+
+
+.grid-large-container{width: 100rem;
+    height: 72.5625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*border: 2px solid yellow;*/
+    align-items: center;
+    align-content: center;
+    background-color: rgba(53, 17, 101, 0.4);
+
+}
+.headline {
+    font-size: 58px;
+}
+.grid-large-container, h1 {
+    font-size: 24px;
+    
+}
+
+.second-container {
+    height: 51.4375rem;
+    width: 75rem;
+    /*border: 2px solid orange;*/
+    border-radius: 15px;
+    background-color: rgba(136, 107, 175, 0.4);
+    
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap:15px;
+    grid-column-gap:15px;
+
+    border-radius: 20px;
+}
+
+
+/* item contet img box */
+
+
+.image-box {
+    width: 60px;
+    height: 60px;
+
+}
+
+.img-size-grid {
+    font-size: 60px 60px;
+}
+
+
+
+/* grid box groop */
+
+
+.grid-box-midium-1{border: 2px solid rgba(20, 19, 19, 0.795);
+    border-radius: 20px;
+    grid-row: span 2;
+
+    align-items: center;
+    background-color: rgba(17, 2, 37, 0.527);
+    padding: 40px;
+
+}
+
+
+.grid-box-big-2 { border: 2px solid black;
+    border-radius: 20px;
+    grid-column: span 2;
+     background-color: rgba(17, 2, 37, 0.527);
+    padding: 40px;
+
+    
+
+}
+
+
+.grid-box-big-3 {
+    border: 2px solid black;
+    border-radius: 20px;
+    grid-column: span 2;
+     background-color: rgba(17, 2, 37, 0.527);
+    padding: 40px;
+}
+
+
+
+.grid-box-large-4 {
+    border: 2px solid black;
+    border-radius: 20px;
+    grid-column: span 2;
+     background-color: rgba(17, 2, 37, 0.527);
+    padding: 40px;
+}
+
+
+
+
+.grid-box-small-5 {
+    border: 2px solid black;
+    border-radius: 20px;
+    grid-row: span 2;
+     background-color: rgba(17, 2, 37, 0.527);
+    padding: 40px;
+}
+
+
+.paragrap {
+    font-size: 16px;
+    color: rgba(180, 163, 163, 0.87);
+}
+
 
 
 
