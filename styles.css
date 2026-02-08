@@ -306,7 +306,7 @@ p,h1,h2,h3 {color: rgba(245, 238, 238, 0.911);}
 /* grid box groop */
 
 
-.grid-box-midium-1{border: 2px solid rgba(20, 19, 19, 0.795);
+.grid-box-midium-1{
     border-radius: 20px;
     grid-row: span 2;
 
@@ -317,7 +317,7 @@ p,h1,h2,h3 {color: rgba(245, 238, 238, 0.911);}
 }
 
 
-.grid-box-big-2 { border: 2px solid black;
+.grid-box-big-2 {
     border-radius: 20px;
     grid-column: span 2;
      background-color: rgba(17, 2, 37, 0.527);
@@ -329,7 +329,6 @@ p,h1,h2,h3 {color: rgba(245, 238, 238, 0.911);}
 
 
 .grid-box-big-3 {
-    border: 2px solid black;
     border-radius: 20px;
     grid-column: span 2;
      background-color: rgba(17, 2, 37, 0.527);
@@ -339,7 +338,6 @@ p,h1,h2,h3 {color: rgba(245, 238, 238, 0.911);}
 
 
 .grid-box-large-4 {
-    border: 2px solid black;
     border-radius: 20px;
     grid-column: span 2;
      background-color: rgba(17, 2, 37, 0.527);
@@ -350,7 +348,6 @@ p,h1,h2,h3 {color: rgba(245, 238, 238, 0.911);}
 
 
 .grid-box-small-5 {
-    border: 2px solid black;
     border-radius: 20px;
     grid-row: span 2;
      background-color: rgba(17, 2, 37, 0.527);
@@ -362,6 +359,257 @@ p,h1,h2,h3 {color: rgba(245, 238, 238, 0.911);}
     font-size: 16px;
     color: rgba(180, 163, 163, 0.87);
 }
+
+
+
+
+
+
+
+
+
+/*
+Featured Episodes */
+
+
+
+/* main container step */
+
+
+
+
+    
+
+
+
+
+
+.card-section-container-second {background-color: #110320;
+    width: 1600px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    
+  
+
+
+
+
+
+
+.card-container-third {
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+    
+
+
+
+.card-groop-container {
+    background-color: rgba(42, 15, 78, 0.4);
+    width: 1200px;
+    height: 440px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 15px;
+
+    border-radius: 20px;
+
+    
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+/* 
+feature episode 1card to 3 card */
+
+
+
+
+
+
+
+
+.image-card-box{width: 390px;
+    height: 280px;
+}
+
+
+
+
+.img-size-grid-l {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+ .grid-card-box-1 {width: 380px;
+    height: 440px;
+
+
+ }
+
+
+.buttonbk {
+    background-color: #1A0B2E;
+}
+
+
+/* meet the host */
+
+
+
+
+
+
+.grid-card-box-host-container {background-color: #110320;
+    width: 1600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.grid-card-host-4th-box {
+    border-radius: 20px;
+    width: 1200px;
+    height: 400px;
+    background-color: #240e41;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.host-image-box {width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+.text-button-host {
+    width: 900px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-size-grid-l{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.card-button-container-1-to-4 {background-color: #1A0B2E;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: 0px;
+display: flex;}
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+
+
+
+
+
+
+.footer-container {
+    width: 100rem;
+    height: 400.38px;
+    background-image: url(./footer-bg.png);
+    background-image: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding-top: 60px;}
+
+
+    
+.footer-button-container {width: 550px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.card-buttons-1-to-4 
+{
+    background-color: rgba(0, 0, 0, 0) ;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+
+
+
+.footer-logo-font-size {
+    font-size: 4rem;
+}
+
+.logo-pinkgd-footer {
+    font-size: 4rem;
+    font-weight: 600;
+    background: linear-gradient(to top,rgb(255, 255, 0) 0%, rgb(255, 0, 255) 45%, rgb(7, 64, 255) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+
+/* complete responsive for mobile 576 size media quyery */
+
+
+
+
+
+
+@media screen and (max-width:576px){
+    
+}
+
+
+
+
+
+
 
 
 
